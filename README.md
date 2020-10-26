@@ -8,7 +8,6 @@ Steps in my local machine:
 
 
 * Created folder project *contacts*
-* created folder 'contact-back' inner folder fo project.
 * clone project [contact-back](https://github.com/ale-fuentes/contact-back)
 
 ```
@@ -20,6 +19,13 @@ Steps in my local machine:
 
 ```
 > npm i
+```
+
+* run backend:
+
+```
+> npm run dev
+
 ```
 
 # history :: init project
