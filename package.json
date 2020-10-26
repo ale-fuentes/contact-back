@@ -2,16 +2,17 @@
   "name": "contact-back",
   "version": "1.0.0",
   "description": "My first project ussing React + Redux",
-  "main": "index.js",
+  "main": "src/loader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name contact-back"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ale-fuentes/contact-back.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "raul alejandro fuentes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ale-fuentes/contact-back/issues"
